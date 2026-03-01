@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c8tcxx8ah0fcd"]
+
+[ext_resource type="Script" uid="uid://ckpdisc5s7ayu" path="res://scenes/stacked_sprite/stacked_sprite.gd" id="1_5610h"]
+
+[node name="StackedSprite" type="Node2D" unique_id=378052354]
+script = ExtResource("1_5610h")
+sprite_hframes = 13

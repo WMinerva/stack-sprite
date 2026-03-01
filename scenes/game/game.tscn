@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://xcwneh7tm7co"]
+
+[ext_resource type="Script" uid="uid://ckpdisc5s7ayu" path="res://scenes/stacked_sprite/stacked_sprite.gd" id="1_7h61r"]
+[ext_resource type="Texture2D" uid="uid://dw0am82uaojbp" path="res://assets/cars-0.png" id="2_0sr1o"]
+[ext_resource type="Texture2D" uid="uid://bg5j8sk64jnle" path="res://assets/cars-1.png" id="3_0sr1o"]
+[ext_resource type="Texture2D" uid="uid://b4inqfsee32mh" path="res://assets/chr_knight.png" id="4_kelw5"]
+[ext_resource type="Texture2D" uid="uid://blhdjkb1dknob" path="res://assets/3x3x3.png" id="5_lfrn8"]
+[ext_resource type="Texture2D" uid="uid://3bxk5bomnmos" path="res://assets/teapot.png" id="6_5i0tg"]
+[ext_resource type="Texture2D" uid="uid://dr8p5plauemc4" path="res://assets/monu3.png" id="7_bdhmt"]
+
+[node name="Game" type="Node2D" unique_id=1623972433]
+
+[node name="StackedSprite" type="Node2D" parent="." unique_id=469949198]
+texture_filter = 1
+position = Vector2(68, 44)
+script = ExtResource("1_7h61r")
+texture = ExtResource("2_0sr1o")
+sprite_hframes = 12
+spin_speed = 20.0
+metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
+
+[node name="StackedSprite2" type="Node2D" parent="." unique_id=1728665815]
+texture_filter = 1
+script = ExtResource("1_7h61r")
+texture = ExtResource("3_0sr1o")
+sprite_hframes = 14
+spin_speed = 20.0
+metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
+
+[node name="StackedSprite3" type="Node2D" parent="." unique_id=567471802]
+texture_filter = 1
+position = Vector2(45, 18)
+script = ExtResource("1_7h61r")
+texture = ExtResource("4_kelw5")
+spin_speed = 20.0
+metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
+
+[node name="StackedSprite4" type="Node2D" parent="." unique_id=762471652]
+texture_filter = 1
+position = Vector2(31, 26)
+script = ExtResource("1_7h61r")
+texture = ExtResource("5_lfrn8")
+sprite_hframes = 3
+spin_speed = 20.0
+metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
+
+[node name="StackedSprite5" type="Node2D" parent="." unique_id=455668734]
+texture_filter = 1
+position = Vector2(171, 113)
+script = ExtResource("1_7h61r")
+texture = ExtResource("6_5i0tg")
+sprite_hframes = 61
+spin_speed = 20.0
+metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
+
+[node name="StackedSprite6" type="Node2D" parent="." unique_id=1503739033]
+texture_filter = 1
+position = Vector2(348, 120)
+script = ExtResource("1_7h61r")
+texture = ExtResource("7_bdhmt")
+sprite_hframes = 79
+spin_speed = 20.0
+metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
