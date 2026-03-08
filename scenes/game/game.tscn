@@ -15,7 +15,7 @@ texture_filter = 1
 position = Vector2(68, 44)
 script = ExtResource("1_7h61r")
 texture = ExtResource("2_0sr1o")
-sprite_hframes = 12
+sprite_hframes = 13
 spin_speed = 20.0
 metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
 
@@ -45,6 +45,7 @@ spin_speed = 20.0
 metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
 
 [node name="StackedSprite5" type="Node2D" parent="." unique_id=455668734]
+visible = false
 texture_filter = 1
 position = Vector2(171, 113)
 script = ExtResource("1_7h61r")
@@ -54,6 +55,7 @@ spin_speed = 20.0
 metadata/_custom_type_script = "uid://ckpdisc5s7ayu"
 
 [node name="StackedSprite6" type="Node2D" parent="." unique_id=1503739033]
+visible = false
 texture_filter = 1
 position = Vector2(348, 120)
 script = ExtResource("1_7h61r")
